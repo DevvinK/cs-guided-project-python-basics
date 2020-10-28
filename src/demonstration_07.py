@@ -12,5 +12,14 @@ Examples:
 - nth_smallest([7, 3, 5, 1], 2) ➞ 3
 """
 def nth_smallest(lst, n):
-    # Your code here
+    lst.sort()
+    if (n > len(lst)):
+        return "None"
+    else:
+        return lst[n-1]
+
+print(nth_smallest([7, 5, 3, 1], 1))
+print(nth_smallest([1, 3, 5, 7], 3))
+print(nth_smallest([1, 3, 5, 7], 5))
+print(nth_smallest([7, 3, 5, 1], 2))
 

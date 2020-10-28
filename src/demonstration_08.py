@@ -12,4 +12,4 @@ Examples:
 """
 def num_args():
     # Your code here
-
+    pass

@@ -8,6 +8,9 @@ Examples:
 - convert(3) ➞ 180
 - convert(2) ➞ 120
 """
-def convert(minutes):
-    # Your code here
+def convert(minutes:int):
+    return minutes * 60
 
+print(convert(5))
+print(convert(3))
+print(convert(2))
